@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav
         className='ui raised very padded segment'
     >
-        <button className='ui teal inverted segment'>Gloria</button>
+        <button className='ui teal inverted segment'>Users</button>
         <div className='ui right floated header'>
             <button className='ui button'><NavLink to="/">Home</NavLink></button>
             <button className='ui button'><NavLink to="/about">About</NavLink></button>
