@@ -4,7 +4,6 @@ const initialState = {
 }
 
 const rootReducer = (state = initialState, action) => {
-    console.log(action)
     switch (action.type) {
         case 'DELETE_CARD':
             let newUsers = state.users.filter((user) => {
